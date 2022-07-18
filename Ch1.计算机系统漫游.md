@@ -10,9 +10,14 @@
 
 * > linux> gee -o hello hello.c
 
-gcc编译器执行4个阶段的程序：
+* gcc编译器执行4个阶段的程序：
 
-<img src="/Users/dinckham/Library/Application Support/typora-user-images/image-20220704155603381.png" alt="image-20220704155603381" style="zoom: 50%;" />
+  <img src="/Users/dinckham/Library/Application Support/typora-user-images/image-20220704155603381.png" alt="image-20220704155603381" style="zoom: 50%;" />
+
+  * 预处理：扩展源代码， 插入所有用#include命令指定的文件， 并扩展所有用#define 声明指定 的宏。
+  * 编译则生成汇编代码
+  * 汇编器生成目标代码文件，
+  * 链接器将目标代码文件与实现库函数(例如printf)的代码合并， 并产生最终的可执行代码文件。
 
   * ? Java程序的编译阶段是怎样的？ 其他语言？
 
