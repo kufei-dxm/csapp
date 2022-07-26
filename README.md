@@ -11,5 +11,5 @@
 ##### 参考资料
 
 * [github电子版课件及实验](https://hansimov.gitbook.io/csapp/)
-* 
+* [字节推荐架构团队-面试手册](https://bytedance.feishu.cn/docs/doccnIvsheM5CDTegQIdeuEXQmF)
 
